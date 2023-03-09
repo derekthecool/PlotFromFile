@@ -44,3 +44,9 @@ BelleX_server log
 ```powershell
 PlotFromFile --searchtext "(?<D>^.*-\d+:\d+).*batteryPercent.:(?<M>\d+)" --file 'C:\Users\Derek Lomax\AppData\Roaming\BelleX_Server\BelleX_OTA_Logs\alQWGVDL.txt'
 ```
+
+BX device log
+
+```powershell
+--searchtext " (?<D>\d{4}-\d+-\d+ \d+:\d+:\d+) .*battery_level.*?(?<M>\d+)$"  --file B:\debugging\2022-12-12_dealer_audio_played_without_seeming_trigger\data\freeus_app\errlogpool.txt
+```
